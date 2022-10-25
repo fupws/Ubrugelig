@@ -1,9 +1,11 @@
 <!doctype html>
 <style>
-	th, td {
-		border: 1px solid black;color: darkcyan;
+	table, th, td {
+		border: 1px solid black;color: darkcyan; border-collapse: collapse;
 	}
-
+	div {
+		background-color: red;
+	}
 </style>
 <html>
 <head>
@@ -12,19 +14,22 @@
 </head>
 
 <body>
-	<strong><print>velkommen til Tokes Hjemmeside</print></strong>
+	<strong><print id="idname">velkommen til Tokes Hjemmeside</print></strong>
 	<a href="one.com">one</a>
 	<ol>
 		<li>dette er det førstepunkt</li>
 		<li>dette er det andet punkt</li>
 	</ol>
-
+<div>
 	<ul>
 		<li>Dette er en liste unden puls</li>
-		<img src="Roker.jfif" width="500" height="600">
-		
+		<img src="images/Roker.jfif" width="500" height="" alt="Joker from persona 5 winking at the camera">
+		<a href="https://Google.com" target="_blank">her er tekst</a><!-- _blank bliver brugt til at åbne en ny fane-->
+		<a href="mailto:mailadresse@mailmail.mail">dette er et link to </a>
+		<a href="tel:+4588888888">telefon nummer</a>
+		<a href="#idname">click her for at scrolle til id blue</a>
 	</ul>
-	
+	</div>
 	<table>
 		<tr>
 		<th >Mandag</th>
@@ -84,6 +89,14 @@
 		</tr>
 		
 	</table>
-	<!-- dette er er en comment-->
+	<!-- _blank bliver brugt til at åbne en ny fane-->
+	<form>
+	<label>fornavn</label> <input type="radio" value="skriv dit navn her"><br>
+		<label>efternavn</label> <input type="radio" value="skriv dit navn her"><br>
+		<label>mand</label> <input type="checkbox" value="skriv dit navn her"><br>
+		<label>enby</label> <input type="checkbox" value="skriv dit navn her"><br>
+		<label>kvinde</label> <input type="checkbox" value="skriv dit navn her"><br>
+	</form>
+	
 </body>
 </html>
