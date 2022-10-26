@@ -1,14 +1,38 @@
 @charset "utf-8";
 
-body {
-	background-color: green;
+.boxen {
+	width: 100px;
+	height: 100px;
+	background-color: blue;
+	animation-name:test;
+	position: relative;
+	animation-duration: 5s;
+	animation-delay: 2s;
+	animation-iteration-count: infinite;
+}
+
+.boxen:hover{
+	background-color:red;
+
+}
+@keyframes test {
+	0% {background-color: blue; left: 0px; top: 0px; scale: 1;}
+	10% {background-color: blue; left: 60px; top: 60px; scale: 1;}
+	20% {background-color: blue; left: 180px; top: 120px; scale: 2;}
+	30% {background-color: blue; left: 60px; top: 180px; scale: 2;}
+	40% {background-color: blue; left: 180px; top: 240px; scale: 2;}
+	50% {background-color: blue; left: 60px; top: 300px; scale: 2;}
+	60% {background-color: blue; left: 180px; top: 360px; scale: 2;}
+	70% {background-color: blue; left: 60px; top: 420px; scale: 2;}
+	80% {background-color: blue; left: 180px; top: 480px; scale: 1;}
+	90% {background-color: blue; left: 60px; top: 540px; scale: 1;}
+	100% {background-color: blue; left: 180px; top: 600px; scale: 1;}
 }
 table, th, td {
 		border: 1px solid black;color: darkcyan; border-collapse: collapse;
 	}
-div {
-		background-color: red;
-	}
+
+
 /* selector (her div), declaration (alt imellem {}) som består af property (background-color) og en value (red) */
 
 /* stjerne er brugt som en universal selector */
