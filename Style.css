@@ -1,3 +1,36 @@
 @charset "utf-8";
-/* CSS Document */
 
+body {
+	background-color: green;
+}
+table, th, td {
+		border: 1px solid black;color: darkcyan; border-collapse: collapse;
+	}
+div {
+		background-color: red;
+	}
+/* selector (her div), declaration (alt imellem {}) som består af property (background-color) og en value (red) */
+
+/* stjerne er brugt som en universal selector */
+
+/*når du vil selekte en class skriv . før, hvor et ID er # */
+
+.ting {
+	border-width: 2px;
+	border-style: dashed;
+	border-corlor: black;
+	font-family: marshmallow-script,sans-serif;
+font-weight: 400;
+font-style: normal;;
+	font-size: 18pt;
+	text-align: center;
+	display: inline;
+	height: 20px;
+	width: 20px;
+	padding: 100px;
+	margin-right: 100px;
+	background-color: antiquewhite;
+	top: 100px;
+	right: 100px;
+	position: relative;
+}
