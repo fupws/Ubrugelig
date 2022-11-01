@@ -17,20 +17,41 @@ ul {
   background-color: #f1f1f1;
   margin:0px;
 	display:inline;
-	padding:2+px;
-	 height: 70px;
+	padding:20px;
+	 padding:left(60px);
+	 height: 50px;
 	 float:left;
-	font-family: marshmallow-script,sans-serif;
-	fontsize:30px;
+	 text-align:center;	
+	 transform: skew(-20deg);
 }
-	
-
-.navbartekst {
+li a {
 	font-family: marshmallow-script,sans-serif;
-		z-index: 3;
+	fontsize:100px;
+	color:beige;
+}
+.headings {
+	font-family: "Segoe UI", Segoe, "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
 	position: relative;
+	
 }
- .ssss {
-	 transform:skewX(-20deg);
-	 
+.li1 {
+	left:-20px;
+	background-color:#1982C4;
+	width:16%;
+}
+.li2 {
+	background-color:#8AC926;
+	width:16%;
+}
+.li3 {
+	background-color:#FF595E;
+	width:16%;
+}
+.li4 {
+	background-color:#FFCA3A;
+	width:16%;
+}
+.li5 {
+	background-color:#6A4C93;
+	width:16%;
 }
