@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*Jeg kæmpede med at lave en container i 2 timer, endte med at følge en liste fra w3schools, som ikke virkede, indtil jeg pastede direkte. Jeg hader computere og hvordan de læser linjer.*/
+ul {
+  background-color: #1982C4;
+  top:0px;
+	left:0px;
+	width:100%;
+	list-style-type:none;
+	overflow:hidden;
+	
+  
+}
+
+ li {
+  background-color: #f1f1f1;
+  margin:0px;
+	display:inline;
+	padding:2+px;
+	 height: 70px;
+	 float:left;
+	font-family: marshmallow-script,sans-serif;
+	fontsize:30px;
+}
+	
+
+.navbartekst {
+	font-family: marshmallow-script,sans-serif;
+		z-index: 3;
+	position: relative;
+}
+ .ssss {
+	 transform:skewX(-20deg);
+	 
+}
