@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 
-ul {
+#navbar {
   background-color: #1982C4;
   top:0px;
 	left:0px;
@@ -12,8 +12,7 @@ ul {
   
 }
 
- li {
-  background-color: #f1f1f1;
+ #navbar li {
   margin:0px;
 	 display:inline;
 	 padding:20px;
@@ -25,7 +24,7 @@ ul {
 }
 li a {
 	font-family:  Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
-	fontsize:20px;
+	font-size:30px;
 	color:beige;
 }
 .headings {
@@ -90,3 +89,19 @@ li a {
 	top:-140px;
 	
 }
+#kontaktbox{
+	 background-color: #FFCA3A;
+	bottom:0px;
+	left:0px;
+	width:100%;
+	list-style-type:none;
+	overflow:hidden;
+}
+#kontaktbox li {
+	margin:0px;
+	 padding-left:20px;
+	 height: 25px;
+	color:#6A4C93;
+	font-size: 20px;
+}
+
